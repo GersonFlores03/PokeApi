@@ -1,0 +1,752 @@
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --cambio-color: #E5E5E5;
+  --cambio-color2: green;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: var(--cambio-color);
+}
+
+
+
+
+.Gif{
+   display: none;
+}
+
+.images .Gif-mobile{
+   width: 350px;
+   height: 500px;
+   display: block;
+   right: -40px;
+   margin: 150px auto;
+  
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -4rem;
+  left: -1rem;
+}
+
+.Input-Buton{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   bottom: -23rem;
+ }
+
+ .Input{
+  position: relative;
+  left: -1rem;
+  bottom: -4rem;
+  height: 30px;
+  border-radius: 20px;
+ }
+
+.Boton{
+   position: relative;
+   bottom: -12.8rem;
+   left: -3rem;
+   width: 60px;
+   height: 30px;
+   border-radius: 10px;
+}
+
+/* Card-Pokemon   */
+
+.Nombre-imagen{
+  width: 280px;
+  height: 350px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 15px;
+ 
+  
+ }
+ .Nombre-imagen:hover{
+  transform: perspective( 600px ) rotateY( 40deg );
+ }
+ 
+
+.Imagen-Poke{
+  width: 90px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  animation: imgSuperiorCard 6s infinite ;
+  
+ }
+
+ @keyframes imgSuperiorCard {
+  0%{
+       top: 0;
+  }
+  50%{
+       top: -20px;
+  }
+  100%{
+        top: 0;
+  }
+}
+
+.Caracteristicas{
+  background-color: rgb(245, 231, 209);
+  height: 250px;
+  width: 270px;
+  margin: -110px auto;
+  border-radius: 10px;
+  
+}
+
+.Texto{
+    text-align: center;
+    padding: 4rem;
+ 
+}
+.Margen{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+
+.Types{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   margin-bottom: 10px ;
+  
+  
+  
+}
+.Types2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  
+}
+
+/* Segunda-Ruta   */
+
+.Page{
+  display: none;
+}
+
+.Page-movimiento{
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 100px auto;
+ 
+}
+
+.Input-filter{
+   text-align: center;
+   margin: 30px auto;
+}
+
+.Portada{
+  width: 400px;
+}
+.Portada2{
+  display: none;
+}
+
+.Separar{
+ margin: 20px auto;
+}
+
+.Input-filter input{
+  width: 280px;
+  height: 30px;
+  border: 0;
+
+}
+.Input-filter button{
+   height: 30px;
+   width: 50px;
+   border: 0;
+   background-color: #D93F3F;
+}
+
+/*.Contendor-Superior{
+  background-color: #E5E5E5;
+}*/
+.Input-filter select{
+  width: 250px;
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222; 
+  outline: none;
+}
+
+.Edit{
+ color: #FE1936;
+}
+
+.Page-movimiento button i{
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  color: rgb(22, 22, 24);
+ 
+ 
+}
+.Page-movimiento button{
+  border: 0;
+  border-radius: 50%;
+}
+
+.total{
+ color: #D93F3F;
+}
+
+
+.TituloPoke{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 20px auto;
+}
+
+.Pokedex{
+  text-align: center;
+}
+
+.section .Borde{
+   width: 100px;
+   margin: 0 auto;
+   border-radius: 5px;
+}
+
+
+.Stas2 img{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 40px auto;
+  position: relative;
+  animation: ImgSuperiorMobil 4s infinite ;
+}
+
+
+@keyframes ImgSuperiorMobil {
+  0%{
+       top: 0;
+  }
+  50%{
+       top: -30px;
+  }
+  100%{
+        top: 0;
+  }
+}
+.Stas3{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.CardsPoke{
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.Superior{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Pikachu{
+  width: 100px;
+}
+
+.Movimientos h3{
+  margin-bottom: 20px;
+  
+}
+
+.PokeMovimientos{
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.Columnas{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 10px;
+  
+}
+.Columnas p{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #aaa;
+  margin: 0 auto;
+  margin: 10px auto;
+}
+
+.Porcentaje-General{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10px ;
+}
+
+
+.Poke-api{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 20px;
+   width: 300px;
+   margin-bottom: 20px;
+  
+}
+
+.Titulo-General{
+  text-align: center;
+}
+
+.Contenedor-General{
+  height: 100%;
+}
+
+
+
+.Pokemon-Description{
+  text-align: center;
+}
+
+.Footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Input{
+  position: relative;
+  bottom: -80px;
+}
+
+.Boton{
+  position: relative;
+  bottom: -245px;
+  width: 90px;
+  height: 50px;
+  left: -45px;
+  background-color: rgb(10, 139, 10);
+ 
+  cursor: pointer;
+}
+
+.Boton :hover{
+  background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Deskot Media Queris   */
+
+
+@media screen and (min-width: 768px) {
+
+  .Poke-api{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .Portada{
+    width: 100%;
+  }
+
+  .Pokemon-Card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .PokeMovimientos{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .Columnas{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+  }
+
+  .Titulo-General{
+    margin: 20px auto;
+  }
+    
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+
+
+
+     .images .Gif-mobile{
+      display: none;
+     }
+
+     .images .Gif{
+      display: block;
+      margin: 0 auto;
+      margin: -100px auto;
+     
+      
+      
+     }
+     .Gif{
+      width: 600px;
+     
+      
+     }
+
+     
+
+     .Input{
+        position: relative;
+        left: 155px;
+        bottom: 162px;
+        border: 0;
+        border-radius: 0;
+        height: 90px;
+        width: 205px;
+        text-align: center;
+
+     }
+
+     .Boton{
+         position: relative;
+         left: -173px;
+         bottom: -11px;
+         border: 0;
+         width: 95px;
+         border-radius: 5px;
+        
+         height: 50px;
+         color: white;
+         cursor: pointer;
+         background-color: green;
+     }
+
+     .Boton:hover{
+      background-color: gray;
+     }
+
+     .Poke-api{
+      display: block;
+      margin: 0 auto;
+      width: 600px;
+      padding: 1rem;
+    }
+
+    .Titulo-General{
+      text-align: center;
+    }
+    .Titulo-General span{
+      color: #D93F3F;
+    }
+
+     .Contenedor-General{
+       height: 1500px;
+     }
+
+     /* Segunda Ruta  */   
+      
+     .Pokemon-Card{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      place-items: center;
+     }
+
+     .Page-movimiento{
+      display: none;
+     }
+     .Portada2{
+      display: block;
+     }
+
+     .Page{
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      gap: 5px;
+      
+    
+      
+      }
+      .Page button{
+        width: 100px;
+        height: 40px;
+        border:  rgb(238, 66, 66) solid;
+        cursor: pointer;
+        border-radius: 30px;
+      }
+
+      .Page button:hover{
+        background-color: white;
+      }
+
+    
+
+     .Portada{
+      display: none;
+     }
+  
+  
+  
+  
+      /* Pokedex  */
+  
+  
+        .Pokex-Contenedor{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 10rem;
+        
+        }
+
+        .Stas1:hover{
+          transform: perspective( 600px ) rotateY( 30deg );
+          
+        }
+
+        .Stas2 img{
+          width: 400px;
+          position: relative;
+          animation: imgSuperior 3s infinite ;
+        }
+
+        @keyframes imgSuperior {
+             0%{
+                  top: 0;
+             }
+             50%{
+                  top: -30px;
+             }
+             100%{
+                   top: 0;
+             }
+        }
+
+        .section{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 3.5rem;
+          }
+
+          .section .Borde{
+          border-radius: 10px;
+          font-size: 1rem;
+          width: 60px;
+          text-align: center;
+
+          }
+         
+        .Contenido{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          gap: 2rem;
+          
+        }
+
+        .TituloPoke{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1rem;
+          height: 100px;
+          color: rgb(3, 3, 26);
+          margin-bottom: 20px;
+        }
+
+        .titulo-poke{
+          text-align: center;
+        }
+          
+
+        .CardsPoke{
+          border-radius: 15px;
+         }
+
+         .Superior{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          margin-bottom: 10px;
+         }
+
+       
+
+         .Porcentaje-General{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1.5rem;
+          flex-direction: column;
+         
+
+         }
+
+         .Porcentaje-General span{
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+           
+          }
+         
+         .Porcentajes:hover{
+          transform: perspective( 600px ) rotateY( -30deg );
+         }
+
+
+         /*.Carga{
+          width: 100%;
+          background-color: white;
+          top: 0;
+          left: 0;
+          height: 100%;
+          position: fixed;
+          z-index: 100;
+         }
+
+         .Carga.hide{
+          display: none;
+         } */
+         .Footer{
+           display: flex;
+           align-items: center;
+           justify-content: flex-start;
+           padding: 8rem;
+           position: relative;
+           margin: 225px auto;
+          
+         }
+
+         .Pikachu{
+           width: 200px;
+         }
+
+         .Contenedor-Footer{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          
+         }
+
+         .CopRight p{
+           margin: 10px auto;
+           justify-content: center;
+           align-items: center;
+         }
+
+         .CopRight i{
+           color: rgb(75, 109, 232);
+         }
+         
+         .Contenido-Final{
+          text-align: center;
+         
+          
+         }
+         .Movimientos h3{
+            margin-bottom: 20px;
+         }
+         .PokeMovimientos{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 2.5rem;
+          gap: 5rem;
+          border-radius: 10px;
+          width: 800px;
+          margin: 0 auto;
+         }
+
+         .Columnas{
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+          
+          }
+          .Columnas p{
+            background-color: #aaa;
+            width: 120px;
+            height: 30px;
+            text-align: center;
+            border-radius: 15px;
+          }
+
+}
