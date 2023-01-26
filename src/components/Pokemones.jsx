@@ -96,9 +96,9 @@ const Pokemones = () => {
             </div>
             <div className='Page'>
                   {
-                    pages.map(number => (
+                    pages.map((number,i) => (
                        
-                        <button key={number.page}  onClick={()=>setPage(number)}>{number}</button>
+                        <button key={i}  onClick={()=>setPage(number)}>{number}</button>
                         
                     ))
                   }

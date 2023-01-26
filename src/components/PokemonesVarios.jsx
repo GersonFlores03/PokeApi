@@ -18,7 +18,7 @@ const PokemonesVarios = () => {
             .catch(() => alert("No existe"))
     }, [id])
 
-    console.log(pokemonCards)
+    
 
 
     const colors2 = () => {
