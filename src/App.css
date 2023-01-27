@@ -128,9 +128,9 @@ body{
   padding: 0.5rem 0.5rem;
   gap: 1rem;
   position: absolute;
-  top: 280px;
+  top: 300px;
   margin: 100px ;
-  left: 40px;
+  left: 50px;
 }
 
 .switch:hover {
@@ -171,7 +171,6 @@ body{
   width: 100%;
   height: 100%;
 }
-
 
 
 
@@ -237,12 +236,16 @@ body{
 .Nombre-imagen{
   width: 280px;
   height: 350px;
-  margin: 100px auto;
+  margin: 60px auto ;
   text-align: center;
   border-radius: 15px;
+  border: solid rgba(0,0,0,.3) 5px;
  
-  
  }
+ .Contendor-Superior{
+   padding: 1rem;
+ }
+ 
  .Nombre-imagen:hover{
   transform: perspective( 600px ) rotateY( 40deg );
  }
@@ -255,8 +258,7 @@ body{
   position: relative;
   bottom: 10px;
   animation: imgSuperiorCard 6s infinite ;
-  
- }
+  }
 
  @keyframes imgSuperiorCard {
   0%{
@@ -272,6 +274,7 @@ body{
 
 .Caracteristicas{
   background-color: rgb(245, 231, 209);
+  border:rgb(249, 242, 242) solid 5px;
   height: 250px;
   width: 270px;
   margin: -110px auto;
@@ -329,7 +332,11 @@ body{
 }
 
 .Portada{
-  width: 400px;
+  width: 450px;
+  position: relative;
+  left: -20px;
+  bottom: 15px;
+  
 }
 .Portada2{
   display: none;
@@ -534,7 +541,6 @@ body{
   height: 50px;
   left: -45px;
   background-color: rgb(10, 139, 10);
- 
   cursor: pointer;
 }
 
@@ -544,6 +550,7 @@ body{
 
 .Pokemon-Card{
   color: black;
+  
 }
 
 
@@ -697,6 +704,9 @@ body{
      }
      .Portada2{
       display: block;
+      position: relative;
+      left: -18px;
+      bottom: 18px;
      }
 
      .Page{
@@ -839,20 +849,6 @@ body{
           transform: perspective( 600px ) rotateY( -30deg );
          }
 
-
-         /*.Carga{
-          width: 100%;
-          background-color: white;
-          top: 0;
-          left: 0;
-          height: 100%;
-          position: fixed;
-          z-index: 100;
-         }
-
-         .Carga.hide{
-          display: none;
-         } */
          .Footer{
            padding: 9rem;
           }
