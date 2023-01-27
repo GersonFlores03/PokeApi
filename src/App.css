@@ -129,9 +129,9 @@ body{
   gap: 1rem;
   position: absolute;
   top: 250px;
-  margin: 100px ;
-  left: 47px;
-}
+  left: -130px;
+  margin: 140px;
+  }
 
 .switch:hover {
   transform: scale(1.1);
@@ -923,10 +923,8 @@ body{
             padding: 0.5rem 0.5rem;
             gap: 1rem;
             position: absolute;
-            top: 280px;
-            margin: 20px ;
            
-          }
+           }
 
           
 
