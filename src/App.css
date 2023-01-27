@@ -7,15 +7,18 @@
   box-sizing: border-box;
 }
 
-/*:root{
+:root{
   --cambio-color: #E5E5E5;
-  --cambio-color2: green;
-}*/
+  
+}
 
 body{
   font-family: 'Times New Roman', Times, serif;
   background-color: var(--cambio-color);
 }
+
+
+/* 
 
 .darkmode {
   background-color: rgb(71, 68, 68);
@@ -95,6 +98,80 @@ body{
   background-color: none;
   color: #fff;
 }
+
+*/
+
+.darkmode {
+  background-color: rgb(71, 68, 68);
+  color: #F1F1F1;
+  ---movements-color: orange;
+}
+
+.ligthmode {
+  background-color: #F1F1F1;
+  color: #343D5B;
+  ---movements-color: gray;
+}
+
+.switch {
+  background-color: #343D5B;
+  border-radius: 150px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  padding: 0.5rem 0.5rem;
+  gap: 1rem;
+  position: absolute;
+  top: 280px;
+  margin: 100px ;
+  left: 40px;
+}
+
+.switch:hover {
+  transform: scale(1.1);
+}
+
+.switch::after {
+  content: "";
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  background-color: #EDEDED;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 50%;
+  transition: 0.3s ease all;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+  background-color: orange;
+  color: black;
+}
+.switch.active::after {
+  left: unset;
+  right: 0;
+}
+
+.switch span {
+  display: flex;
+  background-color: none;
+  color: #fff;
+  
+}
+
+.theme-btn{
+  width: 100%;
+  height: 100%;
+}
+
 
 
 
@@ -425,9 +502,12 @@ body{
   text-align: center;
 }
 
-.Contenedor-General{
+/*.Contenedor-General{
   height: 100%;
-}
+  
+  
+}*/
+
 
 
 
@@ -602,9 +682,7 @@ body{
       color: #D93F3F;
     }
 
-     .Contenedor-General{
-       height: 1500px;
-     }
+     
 
      /* Segunda Ruta  */   
       
@@ -776,14 +854,8 @@ body{
           display: none;
          } */
          .Footer{
-           display: flex;
-           align-items: center;
-           justify-content: flex-start;
-           padding: 8rem;
-           position: relative;
-           margin: 225px auto;
-          
-         }
+           padding: 9rem;
+          }
 
          .Pikachu{
            width: 200px;
@@ -839,5 +911,32 @@ body{
             text-align: center;
             border-radius: 15px;
           }
+
+          .switch {
+            background-color: #343D5B;
+            border-radius: 150px;
+            border: none;
+            position: relative;
+            cursor: pointer;
+            display: flex;
+            outline: none;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            padding: 0.5rem 0.5rem;
+            gap: 1rem;
+            position: absolute;
+            top: 280px;
+            margin: 20px ;
+           
+          }
+
+          
+
+          
+
+
+        
 
 }
